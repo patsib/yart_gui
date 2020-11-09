@@ -1,5 +1,5 @@
-# YART GUI Refactory
-Refactory of Dominique Gallands YART GUI/Client
+# YART GUI Refactoring
+Refactoring of Dominique Gallands YART GUI/Client
 
 See:
 https://github.com/dgalland/yart
