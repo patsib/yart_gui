@@ -24,5 +24,6 @@ Capture:
 - Separated post processing control
 - Runtime crash for nonexisting base dir fixed
 - Added base framenumber in addition to tape & clip
+Screenshot:
 
-
+![alt text](https://github.com/patsib/yart_gui/blob/main/img/v0.8.jpg)
