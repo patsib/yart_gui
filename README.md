@@ -6,19 +6,23 @@ https://github.com/dgalland/yart
 
 
 v0.8:
+
 Generic:
 - GUI reorganisation
 - Global GUI update method
 - Storage of all local values
 - Relabelling for some GUI elements
+
 Connection:
 - Catching timeouts for connections
 - Disconnect cleanup steps for motor and camera
 Threads:
 - Moved image and histo-display from thread to main
+
 Camera:
 - Rework of all camera settings (get and put)
 - Separation of local settings and current dynamic settings of raspi
+
 Capture:
 - Display of scan status (process status & current frame)
 - Display of current camera valuers (gains, shutter)
