@@ -4,8 +4,9 @@ Refactoring of Dominique Gallands YART GUI/Client
 This repo only adresses the GUI of YART, without touching the communication to the raspi/scanner.
 
 While using YART, some runtime crashes emerged and had to be adressed on the fly.
-Also, the handling of the settings was inconsistemt when not following a strict protocol, sometimes even causing exeptions.
-Matplotlib is not threadsafe and was causing headaches.
+Also, the handling of the settings was inconsistent when not following a very strict protocol, sometimes even causing exeptions.
+For a bit more clarity, we reorganized the GUI and detached input from output channels.
+Matplotlib is not threadsafe and was causing headaches. So that was adressed.
 This is work in progress and meant to support the main YART project.
 
 See main project:
