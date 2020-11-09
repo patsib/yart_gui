@@ -26,4 +26,4 @@ Capture:
 - Added base framenumber in addition to tape & clip
 Screenshot:
 
-![Screenshot v0.8](https://github.com/patsib/yart_gui/blob/main/img/v0.8.jpg)
+![Screenshot v0.8](https://github.com/patsib/yart_gui/blob/main/img/v0.8b.jpg)
