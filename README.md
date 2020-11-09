@@ -1,8 +1,16 @@
 # YART GUI Refactoring
 Refactoring of Dominique Gallands YART GUI/Client
 
-See:
+This repo only adresses the GUI of YART, without touching the communication to the raspi/scanner.
+
+While using YART, some runtime crashes emerged and had to be adressed on the fly.
+Also, the handling of the settings was inconsistemt when not following a strict protocol, sometimes even causing exeptions.
+Matplotlib is not threadsafe and was causing headaches.
+This is work in progress and meant to support the main YART project.
+
+See main project:
 https://github.com/dgalland/yart
+
 
 
 v0.8:
