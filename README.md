@@ -20,6 +20,7 @@ Camera:
 - Separation of local settings and current dynamic settings of raspi
 Capture:
 - Display of scan status (process status & current frame)
+- Display of current camera valuers (gains, shutter)
 - Separated post processing control
 - Runtime crash for nonexisting base dir fixed
 - Added base framenumber in addition to tape & clip
