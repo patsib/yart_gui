@@ -3,7 +3,7 @@ Refactoring of Dominique Gallands YART GUI/Client
 
 This repo only adresses the GUI of YART, without touching the communication to the raspi/scanner.
 
-While using YART, some runtime crashes emerged and had to be adressed on the fly.
+While using YART, we had to adress some runtime issues on the fly.
 Also, the handling of the settings was inconsistent when not following a very strict protocol, sometimes even causing exeptions.
 For a bit more clarity, we reorganized the GUI and detached input from output channels.
 Matplotlib is not threadsafe and was causing headaches. So that was adressed.
@@ -13,6 +13,10 @@ See main project:
 https://github.com/dgalland/yart
 
 
+
+v0.81:
+Generic:
+- Switched matplot to Agg backend
 
 v0.8:
 
