@@ -3,7 +3,12 @@ import cv2
 import sys
 import os
 import time
+
+#import matplotlib offscreen
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
+
 from PyQt5.QtCore import QThread, pyqtSignal
 sys.path.append('../Common')
 from Constants import *
@@ -125,7 +130,7 @@ class ImageThread (QThread):
         jpeg = np.frombuffer(jpeg, np.uint8, count=len(jpeg))
         image = cv2.imdecode(jpeg, 1)   # Jpeg decoded
         #update status
-        self.captureStatusInfo = "img process"
+        self.captureStatusInfo = "processing image"
         self.statusSignal.emit()
 
         isJpeg = True
