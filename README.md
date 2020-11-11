@@ -18,6 +18,7 @@ https://github.com/dgalland/yart
 
 Generic:
 - Switched matplot to Agg backend
+- Adressed tk refresh/shutdown exceptions
 
 
 ## v0.8:
