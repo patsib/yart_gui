@@ -24,27 +24,28 @@ Generic:
 #### v0.8:
 
 Generic:
-- GUI reorganisation
-- Global GUI update method
-- Storage of all local values
-- Relabelling for some GUI elements
+- GUI reorganisation and global update method
+- Adressed storage of all local values
+- Minor text corrections
 
 Connection:
-- Catching timeouts for connections
-- Disconnect cleanup steps for motor and camera
+- Adressed connection timeouts
+- Adressed disconnect sequence
+
 Threads:
-- Moved image and histo-display from thread to main
+- Moved tk methods to main thread (tk not threadsafe)
 
 Camera:
-- Rework of all camera settings (get and put)
-- Separation of local settings and current dynamic settings of raspi
+- Separation of all camera settings (get and put)
+- Separation of primary settings and current capture settings (feedback channel)
 
 Capture:
 - Display of scan status (process status & current frame)
 - Display of current camera valuers (gains, shutter)
 - Separated post processing control
-- Runtime crash for nonexisting base dir fixed
+- Adressed exception for nonexisting base dir
 - Added base framenumber in addition to tape & clip
+
 Screenshot:
 
 ![Screenshot v0.8](https://github.com/patsib/yart_gui/blob/main/img/v0.8b.jpg)
