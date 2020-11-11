@@ -14,15 +14,13 @@ https://github.com/dgalland/yart
 
 
 
-v0.81:
+##v0.81:
 
 Generic:
 - Switched matplot to Agg backend
 
 
-
-
-v0.8:
+##v0.8:
 
 Generic:
 - GUI reorganisation
