@@ -2,6 +2,7 @@
 Refactoring of Dominique Gallands YART GUI/Client
 
 This repo only adresses the GUI of YART, without touching the communication to the raspi/scanner.
+If can be used in parallel with the original GUI. Just put the GUIControl_Refactor directory next to your existing GUIControl.
 
 While using YART, we had to adress some runtime issues on the fly.
 Also, the handling of the settings was inconsistent when not following a very strict protocol, sometimes even causing exeptions.
