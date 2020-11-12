@@ -11,9 +11,7 @@ For a bit more clarity, we reorganized the GUI and detached input from output ch
 Matplotlib is not threadsafe and was causing headaches. So that was adressed.
 
 **This is work in progress and meant to support the main YART project.**
-
-See main project:
-https://github.com/dgalland/yart
+See main project: https://github.com/dgalland/yart
 
 
 
