@@ -9,6 +9,7 @@ While using YART, we had to adress some runtime issues on the fly.
 Also, the handling of the settings was inconsistent when not following a very strict protocol, sometimes even causing exeptions.
 For a bit more clarity, we reorganized the GUI and detached input from output channels.
 Matplotlib is not threadsafe and was causing headaches. So that was adressed.
+
 **This is work in progress and meant to support the main YART project.**
 
 See main project:
