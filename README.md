@@ -1,14 +1,16 @@
 # YART GUI Refactoring
 Refactoring of Dominique Gallands YART GUI/Client
 
-This repo only adresses the GUI of YART, without touching the communication to the raspi/scanner.  This version can be used in parallel with the original GUI. Just put the GUIControl_Refactor directory next to your existing GUIControl.
+This repo only adresses the GUI of YART, without touching the communication to the raspi/scanner.<br/>
+This version can be used in parallel with the original GUI. Just put the GUIControl_Refactor directory next to your existing GUIControl.
 
 While using YART, we had to adress some runtime issues on the fly.
 Also, the handling of the settings was inconsistent when not following a very strict protocol, sometimes even causing exeptions.
 For a bit more clarity, we reorganized the GUI and detached input from output channels.
 Matplotlib is not threadsafe and was causing headaches. So that was adressed.
 
-**This is work in progress and meant to support the main YART project.**  See main project: https://github.com/dgalland/yart
+**This is work in progress and meant to support the main YART project.**<br/>
+See main project: https://github.com/dgalland/yart
 
 
 
