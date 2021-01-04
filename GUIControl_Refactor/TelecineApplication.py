@@ -68,7 +68,7 @@ class TelecineDialog(QDialog, Ui_TelecineDialog):
         super(TelecineDialog, self).__init__()
         self.setupUi(self)
         #
-        self.applicationVersion = 0.81
+        self.applicationVersion = 0.82
         self.sock = None
         self.connected = False
         self.cameraIsOpen = False
