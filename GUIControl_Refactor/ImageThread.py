@@ -143,6 +143,7 @@ class ImageThread (QThread):
             else:
                 if self.merge == MERGE_MERTENS:
                     image = self.mergeMertens.process(self.images)
+                    image = cv2.normalize(image, None, 0., 1., cv2.NORM_MINMAX)
                 else:
                     times = np.asarray(self.shutters, dtype=np.float32)/1000000.
 #                    responseDebevec = self.calibrateDebevec.process(self.images, times)
