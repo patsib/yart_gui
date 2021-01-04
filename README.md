@@ -16,7 +16,7 @@ See main project: https://github.com/dgalland/yart
 
 #### v0.82:
 
-Generic:
+ImageThread:
 - Changed normalisation in Mertens bracketing
 
 
