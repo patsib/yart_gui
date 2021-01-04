@@ -14,6 +14,12 @@ See main project: https://github.com/dgalland/yart
 
 
 
+#### v0.82:
+
+Generic:
+- change in normalisation of Mertens bracketing
+
+
 #### v0.81:
 
 Generic:
