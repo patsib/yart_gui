@@ -1,4 +1,4 @@
-# YART GUI Refactoring
+# YART GUI Refactoring (Super8 / Telecine)
 Refactoring of Dominique Gallands YART GUI/Client
 
 This repo only adresses the GUI of YART, without touching the communication to the raspi/scanner.\
